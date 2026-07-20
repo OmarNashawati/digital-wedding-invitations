@@ -1,0 +1,33 @@
+{
+  "name": "digital-wedding-invitations",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/OmarNashawati/digital-wedding-invitations#readme",
+  "bugs": {
+    "url": "https://github.com/OmarNashawati/digital-wedding-invitations/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmarNashawati/digital-wedding-invitations.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "backend": "npm run dev --prefix backend",
+    "frontend": "npm run dev --prefix frontend",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "dependencies": {
+    "vue-router": "^5.0.7"
+  },
+  "keywords": []
+}
